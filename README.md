@@ -1,7 +1,7 @@
 # VoltFramework 
 VoltFramework is a advanced framework for creating programming language. Got Linking,Encrypting,Parsing,Lexing,Interpriting,Compiling tools.
 
-Modules:
+Modules: Linker, Crypto, IO, Memory, LanguageTools, LanguageToolsX
 
 ## VoltFramework.Linker
 Linker is a tool to combine a bunch of files/strings to one file/string.Linkers is used in programming languages,to link all code files to one. Linker in our framework is has all required functions for linking,unlinking files or strings. Linked or Unlinked file/string can be automatically encrypted/decrypted.
@@ -12,6 +12,24 @@ Easy encryption/decryption of strings with keys. Easy-to-use and fast methods.
 ## VoltFramework.LanguageTools (LT)
 
 ## VoltFramework.LanguageToolsX (LTX)
+
+## VoltFramework.PremiumLanguageTools (PLT) 
+
+# Comparing LT & LTX
+
+|Feature          | LT  | LTX |
+|:---------------:|:---:|:---:|
+|Basic Parsing    | Yes | Yes |
+|Multiline Parsing| No  | Yes |
+|Custom Separators| Yes | No  |
+|Basic Lexing     | Yes | Yes |
+|Multiline Lexing | No  | Yes |
+|Minimum lines of code| 50 | 6 |
+|Decryption support| No | Yes |
+|Custom Token Check| No | Yes |
+|.NET Compilation | No  | Yes |
+|Native Compilation|No  | Soon|
+|Token Parsing    | Yes | Yes |
 
 # Creating Programming Language with LT
 To create a programming language with LT module

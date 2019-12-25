@@ -1,0 +1,13 @@
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\bin\Release\VoltFramework.dll
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\bin\Release\VoltFramework.pdb
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\bin\Release\ComponentFactory.Krypton.Design.dll
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\bin\Release\ComponentFactory.Krypton.Docking.dll
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\bin\Release\ComponentFactory.Krypton.Navigator.dll
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\bin\Release\ComponentFactory.Krypton.Ribbon.dll
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\bin\Release\ComponentFactory.Krypton.Toolkit.dll
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\bin\Release\ComponentFactory.Krypton.Workspace.dll
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\obj\Release\VoltFramework.csprojAssemblyReference.cache
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\obj\Release\VoltFramework.csproj.CoreCompileInputs.cache
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\obj\Release\VoltFramework.csproj.CopyComplete
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\obj\Release\VoltFramework.dll
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\obj\Release\VoltFramework.pdb

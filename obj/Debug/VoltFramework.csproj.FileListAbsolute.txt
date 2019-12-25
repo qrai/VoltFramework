@@ -1,0 +1,6 @@
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\bin\Debug\VoltFramework.dll
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\bin\Debug\VoltFramework.pdb
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\obj\Debug\VoltFramework.csproj.CoreCompileInputs.cache
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\obj\Debug\VoltFramework.dll
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\obj\Debug\VoltFramework.pdb
+C:\Users\serge\source\repos\VoltWebs\VoltFramework\obj\Debug\VoltFramework.csprojAssemblyReference.cache

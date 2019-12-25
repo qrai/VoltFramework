@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{922EF860-24F1-4B23-A7A7-34E32FA683BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VoltFramework</RootNamespace>
+    <AssemblyName>VoltFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Crypto\Encrypt.cs" />
+    <Compile Include="Exceptions\Exc.cs" />
+    <Compile Include="IO\DynamicFile.cs" />
+    <Compile Include="IO\FolderManager.cs" />
+    <Compile Include="IO\FileUtil.cs" />
+    <Compile Include="LanguageToolsX\Core\Parser\CodeTree.cs" />
+    <Compile Include="LanguageToolsX\Core\LanguageDescriber.cs" />
+    <Compile Include="LanguageToolsX\Core\Lexer\Lexer.cs" />
+    <Compile Include="LanguageToolsX\Core\Parser\Parser.cs" />
+    <Compile Include="LanguageToolsX\Core\Lexer\Token.cs" />
+    <Compile Include="LanguageToolsX\Core\Parser\StringParser.cs" />
+    <Compile Include="LanguageToolsX\Logger.cs" />
+    <Compile Include="LanguageToolsX\Memory\MemoryObject.cs" />
+    <Compile Include="LanguageToolsX\Memory\ProgramMemory.cs" />
+    <Compile Include="LanguageTools\Core\Class\CodeFile.cs" />
+    <Compile Include="LanguageTools\Descriptors\DClass.cs" />
+    <Compile Include="LanguageTools\Descriptors\DMethod.cs" />
+    <Compile Include="LanguageTools\Descriptors\IDescriptor.cs" />
+    <Compile Include="LanguageTools\Descriptors\DVariable.cs" />
+    <Compile Include="LanguageTools\Exception.cs" />
+    <Compile Include="LanguageTools\Utils\ActionsList.cs" />
+    <Compile Include="LanguageTools\Utils\CodeReader.cs" />
+    <Compile Include="LanguageTools\Utils\CustomInterpreter.cs" />
+    <Compile Include="LanguageTools\Core\Class\ICNode.cs" />
+    <Compile Include="LanguageTools\Core\Class\CodeBlock.cs" />
+    <Compile Include="LanguageTools\Core\Class\CTree.cs" />
+    <Compile Include="LanguageTools\Core\Class\FixedPosToken.cs" />
+    <Compile Include="LanguageTools\Core\Interpreter.cs" />
+    <Compile Include="LanguageTools\Utils\DefaultTokens.cs" />
+    <Compile Include="LanguageTools\Memory\GlobalStorage.cs" />
+    <Compile Include="LanguageTools\Core\Parser.cs" />
+    <Compile Include="LanguageTools\Core\Class\ParserSeparator.cs" />
+    <Compile Include="LanguageTools\Core\Class\Token.cs" />
+    <Compile Include="LanguageTools\Utils\TokenAlgorithms.cs" />
+    <Compile Include="LanguageTools\Core\Lexer.cs" />
+    <Compile Include="LanguageTools\Core\Class\TokenMarker.cs" />
+    <Compile Include="LanguageTools\Utils\TokenUtils.cs" />
+    <Compile Include="LanguageTools\Core\TreeInterpreter.cs" />
+    <Compile Include="LanguageTools\Core\Workspace.cs" />
+    <Compile Include="Linker\FilesLinker.cs" />
+    <Compile Include="Linker\FileUnlinker.cs" />
+    <Compile Include="Memory\MemoryStorage.cs" />
+    <Compile Include="WinForms\ApplicationManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WinForms\Theme.cs" />
+    <Compile Include="WinForms\ThemeManager.cs" />
+    <Compile Include="WinForms\Utils\TreeViewUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LanguageTools\Exception\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

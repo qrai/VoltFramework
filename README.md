@@ -10,11 +10,11 @@ Linker is a tool to combine a bunch of files/strings to one file/string.Linkers 
 Easy encryption/decryption of strings with keys. Easy-to-use and fast methods.
 
 ## VoltFramework.LanguageTools (LT)
-
+soon... 
 ## VoltFramework.LanguageToolsX (LTX)
-
+soon... 
 ## VoltFramework.PremiumLanguageTools (PLT) 
-
+soon... 
 # Comparing LT & LTX
 
 |Feature          | LT  | LTX |
@@ -32,7 +32,7 @@ Easy encryption/decryption of strings with keys. Easy-to-use and fast methods.
 |Token Parsing    | Yes | Yes |
 
 # Creating Programming Language with LT
-To create a programming language with LT module
+soon... 
 
 # Creating Programming Language with LTX
 Creating programming language with LTX module is a more easier and less complicated.LTX has `LanguageDescriber` class,that used to handle Lexer,Parser for the language.So,lets see how to create a programming language:
